@@ -1,0 +1,43 @@
+[
+    {
+        "id": "36aad303.a59074",
+        "type": "tab",
+        "label": "Example",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2e43f381.a0584c",
+        "type": "debug",
+        "z": "36aad303.a59074",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 360,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "13c17b4.a654005",
+        "type": "inject",
+        "z": "36aad303.a59074",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "2e43f381.a0584c"
+            ]
+        ]
+    }
+]
