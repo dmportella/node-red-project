@@ -8,7 +8,7 @@ This repo contains a `dockerfile`, `flow.json` and `settings.js` file.
 
 ### Dockerfile
 
-The dockerfile is setup so that it uses the `slim-v8` version of node-red it also exposes the default port for node-red `1880` additionally includes the `flow.json` and `settings.js` files.
+The dockerfile is setup so that it uses the `latest` version of node-red it also exposes the default port for node-red `1880` additionally includes the `flow.json` and `settings.js` files.
 
 #### Adding node modules
 
@@ -41,7 +41,7 @@ docker run -it --rm --name node-red -p 1880:1880 \
 -v /path/to/settings/file:/data/settings.js \
 -v /path/to/node_modules/folder:/data/node_modules \
 -v /path/to/package/json/file:/data/package.json \
-nodered/node-red-docker
+nodered/node-red
 ```
 
 > Please note that the `flow.json` file is not needed since you will want to edit and create new flows so you can use the `import` and `export` menu items of the admin interface for that.

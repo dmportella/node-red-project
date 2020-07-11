@@ -1,4 +1,4 @@
-FROM nodered/node-red-docker:slim-v8
+FROM nodered/node-red
 
 EXPOSE 1880
 
